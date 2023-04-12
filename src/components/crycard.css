@@ -1,0 +1,62 @@
+.crycard {
+  margin: 5px;
+  height: 300px;
+  width: 400px;
+  background-color: black;
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid black;
+  border-radius: 10%;
+  transition: all 1s;
+}
+
+.crycard:hover {
+  height: 300px;
+  width: 500px;
+  background-color: #1976d2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 2px solid black;
+}
+.crycard > img {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .crycard {
+    margin: 5px;
+    height: 300px;
+    width: 400px;
+    background-color: black;
+    color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 10%;
+    transition: all 0.5s;
+  }
+
+  .crycard:hover {
+    height: 300px;
+    width: 300px;
+    background-color: #1976d2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+  }
+  .crycard > img {
+    height: 100px;
+    width: 100px;
+  }
+}

@@ -1,0 +1,152 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3d4c5c;
+}
+
+.crypto-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.crypto-header > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1976d2;
+}
+
+.crypto-header > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3d4c5c;
+  color: #1976d2;
+  border: 0;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  height: 50px;
+}
+
+.search {
+  margin-top: 10px;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: large;
+}
+
+.input {
+  background-color: #3d4c5c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.input > button {
+  height: 55px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  font-size: larger;
+  background-color: black;
+  color: white;
+  outline: none;
+  margin-left: 0;
+  padding-left: 0;
+  transition: ease-in 2.3s;
+}
+
+.search:focus {
+  margin-top: 10px;
+  height: 50px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #1976d2;
+  font-size: larger;
+  background-color: black;
+  border: 0px solid;
+  outline: none;
+}
+
+.crypto-display {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pagination {
+  padding: 20px;
+  width: "100%";
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .crypto-header {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .crypto-header > h1 {
+    color: #1976d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .crypto-header > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d4c5c;
+    color: #1976d2;
+    border: 0;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  .search {
+    margin-top: 10px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+  }
+
+  .search:focus {
+    height: 50px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #1976d2;
+    font-size: larger;
+    background-color: black;
+    border-radius: 14px;
+  }
+}
